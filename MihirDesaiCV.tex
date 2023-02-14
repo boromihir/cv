@@ -1,0 +1,82 @@
+\documentclass[10pt]{article}
+    \usepackage[english]{babel}
+    \input{config/minimal-resume-config}
+    \begin{document}
+    
+\begin{center}
+	% Personal
+	% -----------------------------------------------------
+	{\fontsize{\sizeone}{\sizeone}\fontspec[Path = fonts/,LetterSpace=15]{Montserrat-Regular} MIHIR DESAI}
+	\\
+	\vspace{2mm}
+	{\fontsize{1em}{1em}\fontspec[Path = fonts/]{Montserrat-Light} Mumbai, Maharashtra, India -- https://mihir.work}
+\end{center}
+% Chapter: Work Experience
+% ------------------------
+\chap{EXPERIENCE}{
+	
+	\job
+	{KEEPWORKS TECHNOLOGIES PRIVATE LIMITED}
+	{Feb 2021 – Present}
+	{Software Developer}
+	{Bengaluru (Remote)}
+	{\begin{newitemize}
+		\item {Contributed to Ruby on Rails backend, created new API routes and implemented performance and memory profiling tools to help analyze resource usage of the app.}
+		\item {Established unit testing for one microservice helping reach 85\% code coverage and also contributed to integration tests for the main frontend application increasing code coverage to 70\%.}
+		\item {Worked on performance testing, NextJS and Apollo caching and optimization to increase responsiveness and implemented websockets to enable interactive two-way communication between server and client.}
+		\end{newitemize}}
+	\job
+	{ARDOURO TECHNOLOGIES}
+	{Aug 2020 – Oct 2020}
+	{Mobile App Developer Intern}
+	{Mumbai (Remote)}
+	{\begin{newitemize}
+		\item {Optimized screen rendering and load times by reducing the number of API requests and using cached data whenever possible.}
+		\item {Implemented a redesigned leader board section and a search feature to display 25\% more information about top contributors and posts in the app that helped users access these areas better.}
+		\end{newitemize}}
+	\job
+	{CURIOSUM TECH PRIVATE LIMITED}
+	{Mar 2020 – Jul 2020}
+	{Web Developer Intern (Backend)}
+	{Mumbai (Remote)}
+	{\begin{newitemize}
+		\item {Devised and built REST API for the platform using NodeJS (ExpressJS) and created user login and registration flow for the platform using JWT based authentication and authorization endpoints.}
+		\end{newitemize}}
+}
+% Chapter: Education
+% ------------------
+
+\chap{EDUCATION}{
+	
+	\school
+	{Mukesh Patel School of Technology Management and Engineering}
+	{May 2020}
+	{Bachelor of Technology Computer Engineering}
+	{Mumbai}
+	{
+	}
+}
+% Chapter: Projects
+% ------------------------
+
+\chap{PROJECTS}{
+	
+	\project
+	{SMMRY}
+	{}
+	{https://smmry.mihir.work}
+	{Smmry is a multi-document summarization tool for news articles built with Python and ReactJS. The app attempts to summarize news articles (upto a maximum of 5) into 300 words or less within 10 seconds. Behind the scenes the app uses the SumBasic algorithm for summarization which ranks key sentences and words based on the frequency of appearance in the articles.\\}
+	}
+	% Chapter: Skills
+	% ------------------------
+	
+	\chap{SKILLS}{
+		\begin{newitemize}
+			\item Programming Languages: JavaScript, TypeScript, Ruby, Python, Golang, Rust, Flutter, SQL
+			\item Frameworks and Libraries: ReactJS, NextJS, Ruby on Rails, Flask, TailwindCSS, Styled Components
+			\item Tools and Misc: PostgreSQL, MySQL, Redis, Git, Docker, Postman, Figma
+		\end{newitemize}
+	}
+	
+	\ 
+\end{document}
